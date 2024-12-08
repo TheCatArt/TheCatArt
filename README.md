@@ -15,7 +15,11 @@
 ### VaultWarden:
 ![](https://status.thecatart.com/api/badge/2/status)<br/>
 ![](https://status.thecatart.com/api/badge/2/uptime)<br/>
-![](https://status.thecatart.com/api/badge/2/ping)<br/>
+![](https://status.thecatart.com/api/badge/2/ping)
+### Zipline:
+![](https://status.thecatart.com/api/badge/3/status)<br/>
+![](https://status.thecatart.com/api/badge/3/uptime)<br/>
+![](https://status.thecatart.com/api/badge/3/ping)
 
 
 
