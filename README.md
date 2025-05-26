@@ -11,55 +11,7 @@
 ![](https://github-readme-stats.vercel.app/api?username=TheCatArt&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=TheCatArt&theme=transparent&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=TheCatArt&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-# 🖥 Server Stats:
-### VaultWarden:
-![](https://status.thecatart.com/api/badge/2/status)<br/>
-![](https://status.thecatart.com/api/badge/2/uptime)<br/>
-![](https://status.thecatart.com/api/badge/2/ping)
-### Zipline:
-![](https://status.thecatart.com/api/badge/3/status)<br/>
-![](https://status.thecatart.com/api/badge/3/uptime)<br/>
-![](https://status.thecatart.com/api/badge/3/ping)
-### Radarr:
-![](https://status.thecatart.com/api/badge/39/status)<br/>
-![](https://status.thecatart.com/api/badge/39/uptime)<br/>
-![](https://status.thecatart.com/api/badge/39/ping)
-### Prowlarr:
-![](https://status.thecatart.com/api/badge/38/status)<br/>
-![](https://status.thecatart.com/api/badge/38/uptime)<br/>
-![](https://status.thecatart.com/api/badge/38/ping)
-### Sonarr:
-![](https://status.thecatart.com/api/badge/40/status)<br/>
-![](https://status.thecatart.com/api/badge/40/uptime)<br/>
-![](https://status.thecatart.com/api/badge/40/ping)
-### Lidarr:
-![](https://status.thecatart.com/api/badge/37/status)<br/>
-![](https://status.thecatart.com/api/badge/37/uptime)<br/>
-![](https://status.thecatart.com/api/badge/37/ping)
-### Jellyfin:
-![](https://status.thecatart.com/api/badge/41/status)<br/>
-![](https://status.thecatart.com/api/badge/41/uptime)<br/>
-![](https://status.thecatart.com/api/badge/41/ping)
-### Jellyseerr:
-![](https://status.thecatart.com/api/badge/52/status)<br/>
-![](https://status.thecatart.com/api/badge/52/uptime)<br/>
-![](https://status.thecatart.com/api/badge/52/ping)
-### qBit:
-![](https://status.thecatart.com/api/badge/5/status)<br/>
-![](https://status.thecatart.com/api/badge/5/uptime)<br/>
-![](https://status.thecatart.com/api/badge/5/ping)
-### HomeAssistant:
-![](https://status.thecatart.com/api/badge/10/status)<br/>
-![](https://status.thecatart.com/api/badge/10/uptime)<br/>
-![](https://status.thecatart.com/api/badge/10/ping)
-### Dev-Tools:
-![](https://status.thecatart.com/api/badge/6/status)<br/>
-![](https://status.thecatart.com/api/badge/6/uptime)<br/>
-![](https://status.thecatart.com/api/badge/6/ping)
-### Status-Page:
-![](https://status.thecatart.com/api/badge/29/status)<br/>
-![](https://status.thecatart.com/api/badge/29/uptime)<br/>
-![](https://status.thecatart.com/api/badge/29/ping)
+
 
 
 
