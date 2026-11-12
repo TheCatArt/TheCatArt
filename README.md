@@ -1,27 +1,177 @@
-# 💫 About Me:
-🦊 Just existing ig
+<div align="center">
 
+<img src="assets/header.svg" width="100%" alt="the_cat_art: weird cat, perpetually caffeinated. i do cybersecurity for fun and somehow for a living. i use arch btw.">
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/the_cat_art1) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/the_cat_art) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/The_Cat_Art) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/27346375) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@The_Cat_Art1) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/the_cat_art) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/TheCatArt1) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@the_cat_art) 
+<!-- live from last.fm through a cloudflare worker, source in nowplaying/ -->
+<a href="https://www.last.fm/user/The_Cat_Art"><img src="https://lastfm-now-playing.kalarko260.workers.dev/now-playing.svg" width="100%" alt="what i'm listening to on last.fm"></a>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=flat&logo=Codeberg&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat&logo=.net&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=flat&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat&logo=reacthookform&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=flat&logo=apache-tomcat&logoColor=black) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=flat&logo=adobe&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=flat&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Audition](https://img.shields.io/badge/Adobe%20Audition-9999FF.svg?style=flat&logo=Adobe%20Audition&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat&logo=adobe%20illustrator&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=flat&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=flat&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=flat&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=flat&logo=gimp&logoColor=FFFFFF) ![Krita](https://img.shields.io/badge/Krita-203759?style=flat&logo=krita&logoColor=EEF37B) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![Gitea](https://img.shields.io/badge/Gitea-34495E?style=flat&logo=gitea&logoColor=5D9425) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Puppeteer](https://img.shields.io/badge/Puppeteer-%2340B5A4.svg?style=flat&logo=Puppeteer&logoSize=auto&logoColor=black) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=flat&logo=home-assistant&logoColor=white) ![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=flat&logo=Jellyfin&logoColor=00A4DC) ![Bitwarden](https://img.shields.io/badge/bitwarden-%23175DDC.svg?style=flat&logo=bitwarden&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=flat&logo=cisco&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=flat&labelColor=171717&logoColor=5cb85c) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=flat&logo=Gradle&logoColor=white) ![PlatformIO](https://img.shields.io/badge/PlatformIO-%23222.svg?style=flat&logo=platformio&logoColor=%23f5822a) ![Pi-Hole](https://img.shields.io/badge/pihole-%2396060C.svg?style=flat&logo=pi-hole&logoColor=white) ![Wireguard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=flat&logo=wireguard&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=flat&logo=Raspberry-Pi) ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=flat&logo=tampermonkey&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=flat&logo=tor-project&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=flat&logo=Trello&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=flat&logo=unity&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=flat&logo=steam&logoColor=white) ![AMD](https://img.shields.io/badge/AMD-%23000000.svg?style=flat&logo=amd&logoColor=white) ![Battle.net](https://img.shields.io/badge/battle.net-%2300AEFF.svg?style=flat&logo=battle.net&logoColor=white) ![EA](https://img.shields.io/badge/ea-%23000000.svg?style=flat&logo=ea&logoColor=white) ![Epic Games](https://img.shields.io/badge/epicgames-%23313131.svg?style=flat&logo=epicgames&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=flat&logo=nVIDIA&logoColor=white) ![PlayStation Network](https://img.shields.io/badge/PSN-%230070D1.svg?style=flat&logo=Playstation&logoColor=white) ![Xbox](https://img.shields.io/badge/xbox-%23107C10.svg?style=flat&logo=xbox&logoColor=white) ![Ubisoft](https://img.shields.io/badge/Ubisoft-%23F5F5F5.svg?style=flat&logo=Ubisoft&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=TheCatArt&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=TheCatArt&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=TheCatArt&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<br>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=TheCatArt&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<a href="https://discord.com/users/766654704419078164" title="discord"><img src="https://cdn.simpleicons.org/discord/5865F2/5865F2" width="22" alt="discord"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://matrix.to/#/@the_cat_art:mozilla.org" title="matrix"><img src="https://cdn.simpleicons.org/matrix/000000/0DBD8B" width="22" alt="matrix"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://t.me/The_Cat_Art" title="telegram"><img src="https://cdn.simpleicons.org/telegram/26A5E4/26A5E4" width="22" alt="telegram"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/the_cat_art1" title="instagram"><img src="https://cdn.simpleicons.org/instagram/FF0069/FF0069" width="22" alt="instagram"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://tiktok.com/@The_Cat_Art1" title="tiktok"><img src="https://cdn.simpleicons.org/tiktok/000000/FFFFFF" width="22" alt="tiktok"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://youtube.com/@the_cat_art" title="youtube"><img src="https://cdn.simpleicons.org/youtube/FF0000/FF0000" width="22" alt="youtube"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://twitch.tv/the_cat_art" title="twitch"><img src="https://cdn.simpleicons.org/twitch/9146FF/9146FF" width="22" alt="twitch"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/TheCatArt1" title="twitter"><img src="assets/icons/twitter.svg" width="22" alt="twitter"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://reddit.com/user/The_Cat_Art" title="reddit"><img src="https://cdn.simpleicons.org/reddit/FF4500/FF4500" width="22" alt="reddit"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://pinterest.com/the_cat_art" title="pinterest"><img src="https://cdn.simpleicons.org/pinterest/BD081C/C7081D" width="22" alt="pinterest"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://stackoverflow.com/users/27346375" title="stack overflow"><img src="https://cdn.simpleicons.org/stackoverflow/F58025/F58025" width="22" alt="stack overflow"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.last.fm/user/The_Cat_Art" title="last.fm"><img src="https://cdn.simpleicons.org/lastdotfm/D51007/D51007" width="22" alt="last.fm"></a>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<sub><a href="https://thecatart.com">thecatart.com</a></sub>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=TheCatArt&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
----
-[![](https://komarev.com/ghpvc/?username=TheCatArt&icon=0&color=0)](https://visitcount.itsvg.in)
+### ~/stack
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- stack:start (generated by scripts/stack.py) -->
+<details open>
+<summary><b>languages</b></summary>
+<br>
+
+<img src="assets/icons/javascript.svg" width="30" height="30" title="javascript" alt="javascript">&nbsp;&nbsp;
+<img src="assets/icons/typescript.svg" width="30" height="30" title="typescript" alt="typescript">&nbsp;&nbsp;
+<img src="assets/icons/python.svg" width="30" height="30" title="python" alt="python">&nbsp;&nbsp;
+<img src="assets/icons/java.svg" width="30" height="30" title="java" alt="java">&nbsp;&nbsp;
+<img src="assets/icons/kotlin.svg" width="30" height="30" title="kotlin" alt="kotlin">&nbsp;&nbsp;
+<img src="assets/icons/php.svg" width="30" height="30" title="php" alt="php">&nbsp;&nbsp;
+<img src="assets/icons/rust.svg" width="30" height="30" title="rust" alt="rust">&nbsp;&nbsp;
+<img src="assets/icons/lua.svg" width="30" height="30" title="lua" alt="lua">&nbsp;&nbsp;
+<img src="assets/icons/gnubash.svg" width="30" height="30" title="bash" alt="bash">&nbsp;&nbsp;
+<img src="assets/icons/c.svg" width="30" height="30" title="c" alt="c">&nbsp;&nbsp;
+<img src="assets/icons/csharp.svg" width="30" height="30" title="c#" alt="c#">&nbsp;&nbsp;
+<img src="assets/icons/cplusplus.svg" width="30" height="30" title="c++" alt="c++">&nbsp;&nbsp;
+<img src="assets/icons/qt.svg" width="30" height="30" title="qml" alt="qml">&nbsp;&nbsp;
+<img src="assets/icons/html5.svg" width="30" height="30" title="html" alt="html">&nbsp;&nbsp;
+<img src="assets/icons/css.svg" width="30" height="30" title="css" alt="css">
+
+</details>
+
+<details>
+<summary><b>web, apps & games</b></summary>
+<br>
+
+<img src="assets/icons/react.svg" width="30" height="30" title="react" alt="react">&nbsp;&nbsp;
+<img src="assets/icons/nextdotjs.svg" width="30" height="30" title="next.js" alt="next.js">&nbsp;&nbsp;
+<img src="assets/icons/vite.svg" width="30" height="30" title="vite" alt="vite">&nbsp;&nbsp;
+<img src="assets/icons/tailwindcss.svg" width="30" height="30" title="tailwind" alt="tailwind">&nbsp;&nbsp;
+<img src="assets/icons/astro.svg" width="30" height="30" title="astro" alt="astro">&nbsp;&nbsp;
+<img src="assets/icons/threedotjs.svg" width="30" height="30" title="three.js" alt="three.js">&nbsp;&nbsp;
+<img src="assets/icons/d3.svg" width="30" height="30" title="d3" alt="d3">&nbsp;&nbsp;
+<img src="assets/icons/expo.svg" width="30" height="30" title="react native" alt="react native">&nbsp;&nbsp;
+<img src="assets/icons/jetpackcompose.svg" width="30" height="30" title="jetpack compose" alt="jetpack compose">&nbsp;&nbsp;
+<img src="assets/icons/unity.svg" width="30" height="30" title="unity" alt="unity">
+
+</details>
+
+<details>
+<summary><b>backend & data</b></summary>
+<br>
+
+<img src="assets/icons/nodedotjs.svg" width="30" height="30" title="node.js" alt="node.js">&nbsp;&nbsp;
+<img src="assets/icons/express.svg" width="30" height="30" title="express" alt="express">&nbsp;&nbsp;
+<img src="assets/icons/fastapi.svg" width="30" height="30" title="fastapi" alt="fastapi">&nbsp;&nbsp;
+<img src="assets/icons/discorddotjs.svg" width="30" height="30" title="discord.js" alt="discord.js">&nbsp;&nbsp;
+<img src="assets/icons/mysql.svg" width="30" height="30" title="mysql" alt="mysql">&nbsp;&nbsp;
+<img src="assets/icons/mariadb.svg" width="30" height="30" title="mariadb" alt="mariadb">&nbsp;&nbsp;
+<img src="assets/icons/postgresql.svg" width="30" height="30" title="postgresql" alt="postgresql">&nbsp;&nbsp;
+<img src="assets/icons/sqlite.svg" width="30" height="30" title="sqlite" alt="sqlite">&nbsp;&nbsp;
+<img src="assets/icons/papermc.svg" width="30" height="30" title="paper plugins" alt="paper plugins">&nbsp;&nbsp;
+<img src="assets/icons/gradle.svg" width="30" height="30" title="gradle" alt="gradle">&nbsp;&nbsp;
+<img src="assets/icons/claude.svg" width="30" height="30" title="claude api" alt="claude api">&nbsp;&nbsp;
+<img src="assets/icons/modelcontextprotocol.svg" width="30" height="30" title="mcp" alt="mcp">
+
+</details>
+
+<details>
+<summary><b>selfhosting & infra</b></summary>
+<br>
+
+<img src="assets/icons/archlinux.svg" width="30" height="30" title="arch linux" alt="arch linux">&nbsp;&nbsp;
+<img src="assets/icons/hyprland.svg" width="30" height="30" title="hyprland" alt="hyprland">&nbsp;&nbsp;
+<img src="assets/icons/docker.svg" width="30" height="30" title="docker" alt="docker">&nbsp;&nbsp;
+<img src="assets/icons/caddy.svg" width="30" height="30" title="caddy" alt="caddy">&nbsp;&nbsp;
+<img src="assets/icons/nginx.svg" width="30" height="30" title="nginx" alt="nginx">&nbsp;&nbsp;
+<img src="assets/icons/cloudflare.svg" width="30" height="30" title="cloudflare" alt="cloudflare">&nbsp;&nbsp;
+<img src="assets/icons/githubactions.svg" width="30" height="30" title="github actions" alt="github actions">&nbsp;&nbsp;
+<img src="assets/icons/jellyfin.svg" width="30" height="30" title="jellyfin" alt="jellyfin">&nbsp;&nbsp;
+<img src="assets/icons/sonarr.svg" width="30" height="30" title="sonarr" alt="sonarr">&nbsp;&nbsp;
+<img src="assets/icons/radarr.svg" width="30" height="30" title="radarr" alt="radarr">&nbsp;&nbsp;
+<img src="assets/icons/pihole.svg" width="30" height="30" title="pi-hole" alt="pi-hole">&nbsp;&nbsp;
+<img src="assets/icons/wireguard.svg" width="30" height="30" title="wireguard" alt="wireguard">&nbsp;&nbsp;
+<img src="assets/icons/homeassistant.svg" width="30" height="30" title="home assistant" alt="home assistant">&nbsp;&nbsp;
+<img src="assets/icons/raspberrypi.svg" width="30" height="30" title="raspberry pi" alt="raspberry pi">
+
+</details>
+
+<details>
+<summary><b>security</b></summary>
+<br>
+
+<img src="assets/icons/burpsuite.svg" width="30" height="30" title="burp suite" alt="burp suite">&nbsp;&nbsp;
+<img src="assets/icons/wireshark.svg" width="30" height="30" title="wireshark" alt="wireshark">&nbsp;&nbsp;
+<img src="assets/icons/metasploit.svg" width="30" height="30" title="metasploit" alt="metasploit">&nbsp;&nbsp;
+<img src="assets/icons/kalilinux.svg" width="30" height="30" title="kali linux" alt="kali linux">&nbsp;&nbsp;
+<img src="assets/icons/hackthebox.svg" width="30" height="30" title="hack the box" alt="hack the box">&nbsp;&nbsp;
+<img src="assets/icons/tryhackme.svg" width="30" height="30" title="tryhackme" alt="tryhackme">&nbsp;&nbsp;
+<img src="assets/icons/owasp.svg" width="30" height="30" title="owasp" alt="owasp">&nbsp;&nbsp;
+<img src="assets/icons/torproject.svg" width="30" height="30" title="tor" alt="tor">
+
+</details>
+
+<details>
+<summary><b>design & video</b></summary>
+<br>
+
+<img src="assets/icons/figma.svg" width="30" height="30" title="figma" alt="figma">&nbsp;&nbsp;
+<img src="assets/icons/blender.svg" width="30" height="30" title="blender" alt="blender">&nbsp;&nbsp;
+<img src="assets/icons/krita.svg" width="30" height="30" title="krita" alt="krita">&nbsp;&nbsp;
+<img src="assets/icons/gimp.svg" width="30" height="30" title="gimp" alt="gimp">&nbsp;&nbsp;
+<img src="assets/icons/adobephotoshop.svg" width="30" height="30" title="photoshop" alt="photoshop">&nbsp;&nbsp;
+<img src="assets/icons/adobeillustrator.svg" width="30" height="30" title="illustrator" alt="illustrator">&nbsp;&nbsp;
+<img src="assets/icons/adobepremierepro.svg" width="30" height="30" title="premiere pro" alt="premiere pro">&nbsp;&nbsp;
+<img src="assets/icons/adobeaftereffects.svg" width="30" height="30" title="after effects" alt="after effects">&nbsp;&nbsp;
+<img src="assets/icons/adobelightroom.svg" width="30" height="30" title="lightroom" alt="lightroom">&nbsp;&nbsp;
+<img src="assets/icons/adobeaudition.svg" width="30" height="30" title="audition" alt="audition">&nbsp;&nbsp;
+<img src="assets/icons/canva.svg" width="30" height="30" title="canva" alt="canva">
+
+</details>
+<!-- stack:end -->
+
+### ~/projects
+
+most of this lives in private repos, so no links. ask if you're curious.
+
+- **kairos**: self-hosted time and project tracker &nbsp;`react` `express` `mysql`
+- **privacy-dashboard**: shows live where devices phone home to, built for the kärntner linux tag 2026 in villach &nbsp;`react` `d3` `python`
+- **serpantinum extras**: face unlock and other extras for my hyprland rice &nbsp;`qml` `lua` `python`
+- **[tca-station](https://github.com/TheCatArt/TCA-Station)**: management page for my radio station &nbsp;`fastapi`
+
+one of the it-admins at [node-K](https://node-k.at). if the wifi's down, it was dns.
+
+<a href="https://node-k.at"><img src="assets/node-k.svg" width="100%" alt="node-K, hackspace klagenfurt"></a>
+
+### ~/stats
+
+<img src="assets/langs.svg" width="100%" alt="language breakdown across all my repos, private ones included">
+
+<p align="center">
+<img height="165" src="https://streak-stats.demolab.com/?user=TheCatArt&background=16122A&border=7A3BF5&stroke=241E3D&ring=7A3BF5&fire=2FE3DC&currStreakNum=2FE3DC&sideNums=ECEAF5&currStreakLabel=2FE3DC&sideLabels=C9C7D6&dates=8E8AA6&border_radius=10" alt="streak">
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheCatArt/TheCatArt/output/snake-dark.svg">
+  <img alt="contribution graph getting eaten" src="https://raw.githubusercontent.com/TheCatArt/TheCatArt/output/snake-light.svg" width="100%">
+</picture>
+
+also hanging around at [minergames](https://github.com/MinerGamesNET) and [alpsec](https://github.com/AlpSecAustria)
+
+<img src="assets/bernd.svg" width="320" alt="a grumpy loaf of bread saying: alpsec ist tot. mist.">
+
+<sub>it's a reference. iykyk.</sub>
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=TheCatArt&label=visitors&color=7A3BF5&style=flat-square" alt="visitors">
+</div>
