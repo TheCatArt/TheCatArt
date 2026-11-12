@@ -97,8 +97,13 @@
 <img src="assets/icons/cloudflare.svg" width="30" height="30" title="cloudflare" alt="cloudflare">&nbsp;&nbsp;
 <img src="assets/icons/githubactions.svg" width="30" height="30" title="github actions" alt="github actions">&nbsp;&nbsp;
 <img src="assets/icons/jellyfin.svg" width="30" height="30" title="jellyfin" alt="jellyfin">&nbsp;&nbsp;
+<img src="assets/icons/jellyseerr.svg" width="30" height="30" title="jellyseerr" alt="jellyseerr">&nbsp;&nbsp;
 <img src="assets/icons/sonarr.svg" width="30" height="30" title="sonarr" alt="sonarr">&nbsp;&nbsp;
 <img src="assets/icons/radarr.svg" width="30" height="30" title="radarr" alt="radarr">&nbsp;&nbsp;
+<img src="assets/icons/lidarr.svg" width="30" height="30" title="lidarr" alt="lidarr">&nbsp;&nbsp;
+<img src="assets/icons/prowlarr.svg" width="30" height="30" title="prowlarr" alt="prowlarr">&nbsp;&nbsp;
+<img src="assets/icons/qbittorrent.svg" width="30" height="30" title="qbittorrent" alt="qbittorrent">&nbsp;&nbsp;
+<img src="assets/icons/flaresolverr.svg" width="30" height="30" title="flaresolverr" alt="flaresolverr">&nbsp;&nbsp;
 <img src="assets/icons/pihole.svg" width="30" height="30" title="pi-hole" alt="pi-hole">&nbsp;&nbsp;
 <img src="assets/icons/wireguard.svg" width="30" height="30" title="wireguard" alt="wireguard">&nbsp;&nbsp;
 <img src="assets/icons/homeassistant.svg" width="30" height="30" title="home assistant" alt="home assistant">&nbsp;&nbsp;
@@ -113,6 +118,8 @@
 <img src="assets/icons/burpsuite.svg" width="30" height="30" title="burp suite" alt="burp suite">&nbsp;&nbsp;
 <img src="assets/icons/wireshark.svg" width="30" height="30" title="wireshark" alt="wireshark">&nbsp;&nbsp;
 <img src="assets/icons/metasploit.svg" width="30" height="30" title="metasploit" alt="metasploit">&nbsp;&nbsp;
+<img src="assets/icons/rapid7.svg" width="30" height="30" title="rapid7" alt="rapid7">&nbsp;&nbsp;
+<img src="assets/icons/exploitdb.svg" width="30" height="30" title="exploit-db" alt="exploit-db">&nbsp;&nbsp;
 <img src="assets/icons/kalilinux.svg" width="30" height="30" title="kali linux" alt="kali linux">&nbsp;&nbsp;
 <img src="assets/icons/hackthebox.svg" width="30" height="30" title="hack the box" alt="hack the box">&nbsp;&nbsp;
 <img src="assets/icons/tryhackme.svg" width="30" height="30" title="tryhackme" alt="tryhackme">&nbsp;&nbsp;

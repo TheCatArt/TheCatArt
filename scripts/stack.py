@@ -3,9 +3,11 @@
 
 logos come from simple icons in their real brand colors. a few brands made simple icons drop
 them (adobe, java, c#, canva, twitter), those come from the last release that still had them.
-kotlin uses its old colorful logo. a color that disappears on github's background gets nudged
+tools simple icons never had (the *arr stack, flaresolverr, rapid7, exploit-db) use their projects'
+own logos as they are. kotlin uses its old colorful logo. a color that disappears on github's background gets nudged
 just enough to read: black logos turn white in dark mode, pale ones darken in light mode.
 """
+import base64
 import colorsys
 import re
 import urllib.request
@@ -31,6 +33,21 @@ PINNED = {  # slug: (source url, brand hex)
     "papermc": ("https://raw.githubusercontent.com/PaperMC/website/HEAD/src/assets/brand/paper.svg", "FFFFFF"),
 }
 
+# not in simple icons at all: the projects' own logos, kept in their own colors
+GH_RAW = "https://raw.githubusercontent.com/{}/HEAD/{}"
+ORIGINAL = {  # slug: (source url, optional crop)
+    "jellyseerr": (GH_RAW.format("Fallenbagel/jellyseerr", "public/os_icon.svg"), None),
+    "prowlarr": (GH_RAW.format("Prowlarr/Prowlarr", "frontend/src/Content/Images/logo.svg"), None),
+    "lidarr": (GH_RAW.format("Lidarr/Lidarr", "frontend/src/Content/Images/logo.svg"), None),
+    "flaresolverr": (GH_RAW.format("FlareSolverr/FlareSolverr", "resources/flaresolverr_logo.svg"), None),
+    # the rapid7 wordmark; the icon is just its orange 7 mark on the right
+    "rapid7": ("https://www.rapid7.com/cdn/images/blt3da7d9f2fa8a488c/6724caccac1d71e009a67c69/Rapid7_logo.svg",
+               ("#E95F26", "210 -8 62 62")),
+}
+PNG = {  # exploit-db only ships its spider as a png
+    "exploitdb": "https://www.exploit-db.com/images/spider-orange.png",
+}
+
 # the 2016 kotlin logo, the colorful one
 KOTLIN = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>kotlin</title><defs>
 <linearGradient id="kb" gradientUnits="userSpaceOnUse" x1="2" y1="26" x2="18" y2="14"><stop offset=".1" stop-color="#0095D5"/><stop offset=".3" stop-color="#238AD9"/><stop offset=".62" stop-color="#557BDE"/><stop offset=".86" stop-color="#7472E2"/><stop offset="1" stop-color="#806EE3"/></linearGradient>
@@ -53,10 +70,13 @@ STACK = [
                         ("gradle", "gradle"), ("claude api", "claude"), ("mcp", "modelcontextprotocol")]),
     ("selfhosting & infra", [("arch linux", "archlinux"), ("hyprland", "hyprland"), ("docker", "docker"),
                              ("caddy", "caddy"), ("nginx", "nginx"), ("cloudflare", "cloudflare"),
-                             ("github actions", "githubactions"), ("jellyfin", "jellyfin"), ("sonarr", "sonarr"),
-                             ("radarr", "radarr"), ("pi-hole", "pihole"), ("wireguard", "wireguard"),
+                             ("github actions", "githubactions"), ("jellyfin", "jellyfin"), ("jellyseerr", "jellyseerr"),
+                             ("sonarr", "sonarr"), ("radarr", "radarr"), ("lidarr", "lidarr"), ("prowlarr", "prowlarr"),
+                             ("qbittorrent", "qbittorrent"), ("flaresolverr", "flaresolverr"),
+                             ("pi-hole", "pihole"), ("wireguard", "wireguard"),
                              ("home assistant", "homeassistant"), ("raspberry pi", "raspberrypi")]),
     ("security", [("burp suite", "burpsuite"), ("wireshark", "wireshark"), ("metasploit", "metasploit"),
+                  ("rapid7", "rapid7"), ("exploit-db", "exploitdb"),
                   ("kali linux", "kalilinux"), ("hack the box", "hackthebox"), ("tryhackme", "tryhackme"),
                   ("owasp", "owasp"), ("tor", "torproject")]),
     ("design & video", [("figma", "figma"), ("blender", "blender"), ("krita", "krita"), ("gimp", "gimp"),
@@ -96,9 +116,39 @@ def readable(hexc, bg, need):
     return "#FFFFFF" if dark_bg else "#171717"
 
 
+def original_svg(slug, title):
+    url, crop = ORIGINAL[slug]
+    src = get(url)
+    if re.search(r"<script|<foreignObject|\son\w+=|href=\"(?:https?:|//)", src, re.I):
+        raise SystemExit(f"{slug}: logo has scripts or external references, not using it")
+    src = re.sub(r"<\?xml.*?\?>|<!DOCTYPE.*?>|<!--.*?-->", "", src, flags=re.S).strip()
+    if crop:
+        color, box = crop
+        paths = "".join(p for p in re.findall(r"<path\b[^>]*?/?>(?:</path>)?", src) if color.lower() in p.lower())
+        return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{box}"><title>{title}</title>{paths}</svg>\n'
+    tag = re.search(r"<svg\b[^>]*>", src).group(0)
+    new_tag = tag
+    if "viewBox" not in tag:
+        w = re.search(r'\bwidth="([\d.]+)', tag).group(1)
+        h = re.search(r'\bheight="([\d.]+)', tag).group(1)
+        new_tag = new_tag.replace("<svg", f'<svg viewBox="0 0 {w} {h}"', 1)
+    return src.replace(tag, new_tag + f"<title>{title}</title>", 1) + "\n"
+
+
+def png_svg(slug, title):
+    req = urllib.request.Request(PNG[slug], headers=UA)
+    data = base64.b64encode(urllib.request.urlopen(req).read()).decode()
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>{title}</title>'
+            f'<image href="data:image/png;base64,{data}" width="64" height="64"/></svg>\n')
+
+
 def icon_svg(slug, title):
     if slug == "kotlin":
         return KOTLIN
+    if slug in ORIGINAL:
+        return original_svg(slug, title)
+    if slug in PNG:
+        return png_svg(slug, title)
     if slug in PINNED:
         url, hexc = PINNED[slug]
         src = get(url)
